@@ -17,3 +17,6 @@ font:
   normal:
     family: FiraCode Nerd Font
   size: 13
+
+import:
+  - ~/.dotfiles/alacritty/.config/alacritty/dracula.yml
