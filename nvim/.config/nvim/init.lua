@@ -9,4 +9,5 @@ require('lualine-config')
 require('treesitter-config')
 require('null-ls-config')
 require('lsp-config.mason-config')
+require('toggle-term')
 

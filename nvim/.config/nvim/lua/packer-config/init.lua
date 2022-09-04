@@ -12,6 +12,9 @@ return require('packer').startup(function()
 
     use 'kyazdani42/nvim-tree.lua'
 
+    -- Toggle Terminal 
+    use 'akinsho/toggleterm.nvim' 
+
     -- Treesitter
     use 'nvim-treesitter/nvim-treesitter'
 
