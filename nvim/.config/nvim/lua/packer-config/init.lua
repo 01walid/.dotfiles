@@ -12,6 +12,12 @@ return require('packer').startup(function()
 
     use 'kyazdani42/nvim-tree.lua'
 
+    -- Treesitter
+    use 'nvim-treesitter/nvim-treesitter'
+
+    -- Telescope
+    use 'nvim-telescope/telescope.nvim'
+
     use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
     use 'simrat39/rust-tools.nvim'
 
