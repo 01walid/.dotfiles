@@ -19,6 +19,8 @@ alias todo="nvim ~/todo.txt"
 alias ls="exa -a --icons"
 alias cat="bat -p"
 alias http="xh"
+alias cdd="cd ~/.dotfiles"
+alias edd="nvim ~/.dotfiles"
 
 # Exports
 export LANG=en_US.UTF-8

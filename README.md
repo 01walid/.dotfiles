@@ -3,8 +3,7 @@
 Feel at `$HOME`, these are my personal config files (a.k.a dot files), I manage them using [Gnu Stow](https://www.gnu.org/software/stow/). 
 Not everything is included yet, working on it.
 
-
-## what am I using? 
+## What am I using? 
 MacOs and Arch Linux with: 
 
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty).
