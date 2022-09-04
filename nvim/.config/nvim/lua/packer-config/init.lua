@@ -18,6 +18,9 @@ return require('packer').startup(function()
     -- Telescope
     use 'nvim-telescope/telescope.nvim'
 
+    use 'williamboman/mason.nvim'
+    use 'williamboman/mason-lspconfig.nvim'
+
     use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
     use 'simrat39/rust-tools.nvim'
 
@@ -26,6 +29,9 @@ return require('packer').startup(function()
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind.nvim' -- Icons for auto-completion popup menus
+
+    -- Formatting
+    use 'jose-elias-alvarez/null-ls.nvim'
 
     -- Debugging
     use 'nvim-lua/plenary.nvim'

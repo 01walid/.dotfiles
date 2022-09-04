@@ -7,4 +7,6 @@ require('lsp-config.language-servers')
 require('lsp-config.cmp-config')
 require('lualine-config')
 require('treesitter-config')
+require('null-ls-config')
+require('lsp-config.mason-config')
 

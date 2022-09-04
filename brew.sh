@@ -12,7 +12,7 @@ fi
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Common needed packages:
-brew install git gh stow neovim bat xh exa tmux libpq starship neofetch difftastic ripgrep fd
+brew install git gh stow neovim bat xh exa tmux libpq starship neofetch difftastic ripgrep fd wget gzip tree
 brew install --cask alacritty
 
 # Install Volta: https://volta.sh/
