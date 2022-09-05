@@ -5,7 +5,7 @@ vim.g.mapleader = ' '
 
 
 map('n', '<leader>ee', ':NvimTreeToggle<CR>', opts)
-map('n', '<leader>f', ':NvimTreeFocus<CR>', opts)
+-- map('n', '<leader>f', ':NvimTreeFocus<CR>', opts)
 
 -- Telescope mappings 
 map('n', '<leader>ff', ':Telescope find_files<CR>', opts)
@@ -36,23 +36,15 @@ map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
 map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 -- Close buffer
 map('n', '<A-x>', '<Cmd>BufferClose<CR>', opts)
--- Wipeout buffer
---                 :BufferWipeout
--- Close commands
---                 :BufferCloseAllButCurrent
---                 :BufferCloseAllButPinned
---                 :BufferCloseAllButCurrentOrPinned
---                 :BufferCloseBuffersLeft
---                 :BufferCloseBuffersRight
--- Magic buffer-picking mode
--- map('n', '<C-p>', '<Cmd>BufferPick<CR>', opts)
--- Sort automatically by...
--- map('n', '<Space>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
--- map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
--- map('n', '<Space>bl', '<Cmd>BufferOrderByLanguage<CR>', opts)
--- map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
 
--- Other:
--- :BarbarEnable - enables barbar (enabled by default)
--- :BarbarDisable - very bad command, should never be used
+-- Move lines around without copy/paste 
+map('n', '<A-j>', ':m .+1<CR>==', opts)
+map('n', '<A-k>', ':m .-2<CR>==', opts)
+map('i', '<A-j>', '<Esc>:m .+1<CR>==gi', opts)
+map('i', '<A-k>', '<Esc>:m .-2<CR>==gi', opts)
+map('v', '<A-k>', '<Esc>:m >+1<CR>gv=gv', opts)
+map('v', '<A-k>', '<Esc>:m <-2<CR>gv=gv', opts)
+
+-- Clear search highlights after a second Enter 
+map('n', '<silent> <CR>', ':nohlsearch<CR><CR>', opts)
 
