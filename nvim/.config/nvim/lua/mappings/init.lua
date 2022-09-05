@@ -4,7 +4,7 @@ local opts = { noremap = true, silent = true}
 vim.g.mapleader = ' '
 
 
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+map('n', '<leader>ee', ':NvimTreeToggle<CR>', opts)
 map('n', '<leader>f', ':NvimTreeFocus<CR>', opts)
 
 -- Telescope mappings 
@@ -35,7 +35,7 @@ map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
 -- Pin/unpin buffer
 map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 -- Close buffer
-map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
+map('n', '<A-x>', '<Cmd>BufferClose<CR>', opts)
 -- Wipeout buffer
 --                 :BufferWipeout
 -- Close commands
