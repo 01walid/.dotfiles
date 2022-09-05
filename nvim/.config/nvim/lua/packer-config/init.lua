@@ -14,6 +14,7 @@ return require('packer').startup(function()
 
     -- Toggle Terminal 
     use 'akinsho/toggleterm.nvim' 
+    use 'nvim-treesitter/nvim-treesitter-context'
 
     -- Treesitter
     use 'nvim-treesitter/nvim-treesitter'
