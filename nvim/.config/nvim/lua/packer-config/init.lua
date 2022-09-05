@@ -12,6 +12,9 @@ return require('packer').startup(function()
 
     use 'kyazdani42/nvim-tree.lua'
 
+    -- Gitsigns 
+    use 'lewis6991/gitsigns.nvim'
+
     -- Tabs 
     use 'romgrk/barbar.nvim'
 
