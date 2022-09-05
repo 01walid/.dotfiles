@@ -11,4 +11,5 @@ require('null-ls-config')
 require('lsp-config.mason-config')
 require('toggle-term')
 require('telescope-config')
+require('gitsigns-config')
 
