@@ -27,3 +27,10 @@ export LANG=en_US.UTF-8
 export EDITOR='nvim'
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+
+# Inlcude libpq binaries (pg_dump, pg_restore, dropdb, ..) if we're on mac
+if [[ $OSTYPE == 'darwin'* ]]; then
+    export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+fi
+
