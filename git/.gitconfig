@@ -11,3 +11,5 @@
 [diff]
     external = difft
 
+[init]
+	defaultBranch = main
